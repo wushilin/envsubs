@@ -53,9 +53,9 @@ Specifying the variable using:
 `${VARIABLE:DEFAULT}`
 format.
 
-VARIABLE is looked up by <ENV_PREFIX><VARIABLE>
+VARIABLE is looked up by `ENV_PREFIX``VARIABLE`
 
-If it is not found, then <ENV_PREFIX>HEX_UTF8HEX(<VARIABLE>) is checked, and the value is hex decoded as UTF8, then will be used.
+If it is not found, then `ENV_PREFIX`HEX_`UTF8HEX(VARIABLE)` is checked, and the value is hex decoded as UTF8, then will be used.
 
 If still not found, then the DEFAULT value will be used.
 
