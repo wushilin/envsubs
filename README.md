@@ -55,7 +55,7 @@ format.
 
 VARIABLE is looked up by environment variable name `ENV_PREFIX` + `VARIABLE`
 
-If it is not found, then `ENV_PREFIX` + HEX_ + `UTF8HEX(VARIABLE)` is checked, and the value is hex decoded as UTF8, then will be used.
+If it is not found, then the environment variable name `ENV_PREFIX` + HEX_ + `UTF8HEX(VARIABLE)` is checked, and the value is hex decoded as UTF8, then will be used.
 
 If still not found, then the DEFAULT value will be used.
 
